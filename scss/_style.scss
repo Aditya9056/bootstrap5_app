@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+}
+
+.form-login {
+    width: 100%;
+    max-width: 330px;
+    padding: 35px;
+    margin: auto;
+}
+
+#login, input, img{
+    transition: box-shadow .3s;
+}
+
+input:focus{
+    box-shadow: 0 0 20px rgba(33,33,33,.2)!important;
+}
+
+
+#login:hover, input:hover {
+    box-shadow: 0 0 20px rgba(33,33,33,.2); 
+}
+
+img:hover {
+    box-shadow: 0 0 20px #401f7c; 
+}
