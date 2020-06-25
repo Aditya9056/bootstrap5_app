@@ -25,3 +25,11 @@ input:focus{
 img:hover {
     box-shadow: 0 0 20px #401f7c; 
 }
+
+a {
+    text-decoration: none;
+}
+
+#footer img {
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
